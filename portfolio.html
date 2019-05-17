@@ -10,25 +10,21 @@
 
     <body>
         
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>                        
-                </button>
-                <a class="navbar-brand" href="#">Matthew</a>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">About</a></li>
-                  <li class="active"><a href="#">Portfolio</a></li>
-                  <li class="active"><a href="#">Contact</a></li>
-              </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+            <a class="navbar-brand" href="./index.html"><strong>Matt</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="./index.html">Bio</a>
+                <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="./contact.html" tabindex="-1" aria-disabled="true">Contact</a>
               </div>
             </div>
           </nav>
+          <br>
 
 
         <div class="container">
@@ -41,54 +37,64 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/img/technics-q-c-640-480-1.jpg" class="img-fluid" alt="iPad bro">
+                        <div class="col-md-6">
+                            <div class="card bg-dark text-white">
+                                <a id="liri"><img src="assets/img/Screenshot (10).png" id="liri" class="card-img" alt="Liri node app">
+                                    </a>
+                                <div class="card-img-overlay">
+                                    <a href="https://www.youtube.com/watch?v=x50Ei22hDR8"><h2 class="card-title" id="project-title">Liri</h2>
+                                    </a>
+                                </div>
+                                </div>
                         </div>
                         
-                        <div class="col-md-4">
-                                <img src="assets/img/technics-q-c-640-480-2.jpg" class="img-fluid" alt="drumkit">
-                        </div>
-
-                        <div class="col-md-4">
-
+                        <div class="col-md-6">
+                            <div class="card bg-dark text-dark">
+                                <img src="assets/img/Screenshot (12).png" id="friend" class="card-img" alt="FriendFinder app">
+                                <div class="card-img-overlay">
+                                    <a href="https://friend-me-up-scotty.herokuapp.com/">
+                                        <h2 class="card-title" id="project-title">FriendFinder</h2>
+                                    </a>
+                                </div>
+                                </div>
                         </div>
 
                     </div>
 
-                    <div class="row">
-                            <div class="col-md-4">
-                                <img src="assets/img/technics-q-c-640-480-5.jpg" class="img-fluid" alt="headphones">
-                            </div>
-                            
-                            <div class="col-md-4">
-                                    <img src="assets/img/technics-q-c-640-480-7.jpg" class="img-fluid" alt="iPhone">
-                            </div>
-    
-                            <div class="col-md-4">
-    
-                            </div>
-    
-                        </div>
-
-                        <div class="row">
-                                <div class="col-md-4">
-                                    <img src="assets/img/technics-q-c-640-480-9.jpg" class="img-fluid" alt="LCDTV">
-                                </div>
-                                
-                                <div class="col-md-4">
-                                        
-                                </div>
-        
-                                <div class="col-md-4">
-        
-                                </div>
-        
-                            </div>
-
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col-md-6">
+                        <div class="card bg-dark text-white">
+                            <a id="liri"><img src="assets/img/Screenshot (18).png" id="liri" class="card-img" alt="Liri node app">
+                                </a>
+                            <div class="card-img-overlay">
+                                <a href="https://cheetara.herokuapp.com/">
+                                    <h2 class="card-title" id="project-title">Cheetah</h2>
+                                </a>
+                            </div>
+                            </div>
+                    </div>
+
+            </div>
+
         </div>
+
+        <footer class="footer">
+                <div class="container">
+                    <p><a href="https://www.linkedin.com/in/matthew-limbach-19b1aa174/" target="blank">LinkedIn</a> | 
+                        <a href="https://github.com/Limbach17" target="blank">Github</a>
+                </div>
+        </footer>
+
     </body>
+
+    <script type="text/javascript">
+        function openProject () {
+
+        }
+        
+    </script>
 
 </html>
